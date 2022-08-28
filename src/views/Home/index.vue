@@ -9,7 +9,7 @@
     <Floor></Floor>
     <Floor></Floor>
     <Brand></Brand>
-    <button @click="add">点击</button>
+    <button @click="add">点击我来自new-feature</button>
     <span>{{ count }}</span>
   </div>
 </template>
