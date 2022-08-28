@@ -21,7 +21,7 @@ import Rank from "./Rank";
 import Like from "./Like";
 import Floor from "./Floor";
 import Brand from "./Brand";
-import { mapActions, mapState } from "vuex";
+// import { mapActions, mapState } from "vuex";
 
 export default {
   name: "home",
@@ -37,11 +37,11 @@ export default {
     Brand,
   },
   computed: {
-    ...mapState([`count`]),
+    // ...mapState([`count`]),
   },
   methods: {
     // action
-    ...mapActions([`add`]),
+    // ...mapActions([`add`]),
   },
 };
 </script>
